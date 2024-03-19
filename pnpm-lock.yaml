@@ -20,6 +20,12 @@ dependencies:
   lucide-svelte:
     specifier: ^0.359.0
     version: 0.359.0(svelte@4.2.7)
+  mode-watcher:
+    specifier: ^0.3.0
+    version: 0.3.0(svelte@4.2.7)
+  svelte-sonner:
+    specifier: ^0.3.19
+    version: 0.3.19(svelte@4.2.7)
   tailwind-merge:
     specifier: ^2.2.2
     version: 2.2.2
@@ -2291,6 +2297,14 @@ packages:
       ufo: 1.5.2
     dev: true
 
+  /mode-watcher@0.3.0(svelte@4.2.7):
+    resolution: {integrity: sha512-k8jjuTx94HaaRKWO6JDf8wL761hFatrTIHJKl+E+3JWcnv+GnMBH062zcLsy0lbCI3n7RZxxHaWi66auFnUO4g==}
+    peerDependencies:
+      svelte: ^4.0.0
+    dependencies:
+      svelte: 4.2.7
+    dev: false
+
   /mri@1.2.0:
     resolution: {integrity: sha512-tzzskb3bG8LvYGFF/mDTpq3jpI6Q9wc3LEmBaghu+DdCssd1FakN7Bc0hVNmEyGq1bq3RgfkCb3cmQLpNPOroA==}
     engines: {node: '>=4'}
@@ -3128,6 +3142,14 @@ packages:
       svelte: 4.2.7
       typescript: 5.4.2
     dev: true
+
+  /svelte-sonner@0.3.19(svelte@4.2.7):
+    resolution: {integrity: sha512-jpPOgLtHwRaB6Vqo2dUQMv15/yUV/BQWTjKpEqQ11uqRSHKjAYUKZyGrHB2cQsGmyjR0JUzBD58btpgNqINQ/Q==}
+    peerDependencies:
+      svelte: '>=3 <5'
+    dependencies:
+      svelte: 4.2.7
+    dev: false
 
   /svelte@4.2.7:
     resolution: {integrity: sha512-UExR1KS7raTdycsUrKLtStayu4hpdV3VZQgM0akX8XbXgLBlosdE/Sf3crOgyh9xIjqSYB3UEBuUlIQKRQX2hg==}
